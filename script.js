@@ -33,5 +33,10 @@ $(document).ready(function () {
     // set interval and make appear each comment for 6 sec
     setInterval(commentsTimer, 6000);
 
-
+// comment-buble functionality
+    $(".comment-btn").on("click", function(){
+        var addComment = $(".comment-input").val();
+        comments.push(addComment);
+        $(".comment-input").val("");
+    })
 });

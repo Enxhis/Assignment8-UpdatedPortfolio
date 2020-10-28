@@ -72,3 +72,38 @@ form{
     width: 400px;
     height: auto;
 }
+
+.speech-bubble {
+	position: relative;
+	background: #fabea7;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fabea7;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+.comment-input{
+    background: #fabea7;
+    outline-style: groove;
+    margin-left: 25px;
+    margin-right: 25%;
+}
+
+.btn-outline-light{
+    position: relative;
+    margin-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    outline-style: groove;
+    margin-left: 25px;
+}
