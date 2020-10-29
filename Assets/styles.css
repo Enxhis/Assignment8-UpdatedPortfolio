@@ -74,6 +74,7 @@ form{
 }
 
 .speech-bubble {
+    @media only screen and (device-width: 768px);
 	position: relative;
 	background: #fabea7;
 	border-radius: .4em;
@@ -94,6 +95,8 @@ form{
 	margin-bottom: -20px;
 }
 .comment-input{
+    @media only screen and (device-width: 768px);
+        /* For general iPad layouts */
     background: #fabea7;
     outline-style: groove;
     margin-left: 25px;
