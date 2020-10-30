@@ -32,10 +32,11 @@ body {
     width: 50%;
 }
 /* Footer styles */ 
-footer{
+.footer{
     font-family: 'Raleway', sans-serif;
     display: grid;
     position: sticky;
+    margin-top: 250px;
 }
 .footer a{
     color: #797a7e;
@@ -73,9 +74,13 @@ form{
     height: auto;
 }
 
+.testimonial-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
+
 .speech-bubble {
-    @media only screen and (device-width: 768px);
-	position: relative;
+	position: absolute;
 	background: #fabea7;
 	border-radius: .4em;
 }

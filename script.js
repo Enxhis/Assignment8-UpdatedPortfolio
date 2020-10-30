@@ -4,11 +4,11 @@ $(document).ready(function () {
     // TODOO:// Giphy Query Url 
     
     //list of comments from grader
-    comments = ["Your UI is extremely polished and clean",
-        "Most of all, I like that the user experience is intuitive and easy to navigate—great effort on your part",
-        "Brilliant color-coding by time",
-        "Impressive data persisting with localStorage",
-        "Keep up the awesome work, and happy coding!"];
+    comments = ["\"Your UI is extremely polished and clean\"",
+        "\"Most of all, I like that the user experience is intuitive and easy to navigate—great effort on your part\"",
+        "\"Brilliant color-coding by time\"",
+        "\"Impressive data persisting with localStorage\"",
+        "\"Keep up the awesome work, and happy coding!\""];
 
     var commentP = $("<p>").addClass('comment-text');
     var i = 0;
