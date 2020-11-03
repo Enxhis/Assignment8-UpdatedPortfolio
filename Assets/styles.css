@@ -70,6 +70,14 @@ form{
 }
 
 /* portfolio.html */
+.education-header{
+    /* margin-top: 200px; */
+    color:#e8ded2;
+}
+
+.project-header{
+    color:#056676;
+}
 .project-card{
     background-color: #a3d2ca;
     color:#056676;
