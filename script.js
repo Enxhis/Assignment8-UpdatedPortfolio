@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    // giphy API key
-    //apiKey = "Ydz06FdZ9yfctTVaqZgBHZtRQ41gnPYI";
-    // TODOO:// Giphy Query Url 
-    
     //list of comments from grader
     comments = ["\"Your UI is extremely polished and clean\"",
         "\"Most of all, I like that the user experience is intuitive and easy to navigate—great effort on your part\"",
