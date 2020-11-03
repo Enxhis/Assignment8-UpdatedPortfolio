@@ -14,5 +14,6 @@ This is a portfolio website, where is included a short biography accompanied wit
 ## Image
 ![Screenshot Image](./Assets/UpdatedPortfolio-Screenshot.png)
 ## Link
+https://enxhis.github.io/Assignment8-UpdatedPortfolio/
 
 Copyright Enxhi Salaj 2020
