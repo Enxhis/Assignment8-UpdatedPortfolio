@@ -8,11 +8,11 @@
 /* Splitting background colors */
 html {
     height: 100%;
-    background-color: #f4f4f4;
+    background-color: #e8ded2;
 }  
 body {
     height: 50%;
-    background-color: #fabea7;
+    background-color: #056676;
     background-repeat: repeat-x;
     background-size: 50% auto;
 }
@@ -20,6 +20,10 @@ body {
 /* Navbar styles */
 .navbar-brand{
     font-family: 'Dancing Script', cursive;
+    color: #e8ded2;
+}
+.navbar-nav{
+    color: #e8ded2;
 }
 /* Main */ 
 
@@ -30,6 +34,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    color: #e8ded2;
 }
 /* Footer styles */ 
 .footer{
@@ -45,17 +50,21 @@ body {
 /* index.html */ 
 .bio{
     font-family: 'Raleway', sans-serif;
+    color: #132743;
 }
 
 /* contact.html */
 /* Form styles */
 form{
     font-family: 'Raleway', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #5eaaa8;
+}
+.form-control{
+    background-color: #e8ded2;
 }
 .mb-2{
     font-family: 'Raleway', sans-serif;
-    background-color: #fabea7;
+    background-color: #a3d2ca;
 }
 
 /* portfolio.html */
@@ -73,7 +82,13 @@ form{
     width: 400px;
     height: auto;
 }
-
+.hero-style{
+    background-color: #056676;
+}
+.testimonial-card{
+    background-color: #056676;
+    color: #e8ded2;
+}
 .testimonial-title{
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
@@ -81,7 +96,7 @@ form{
 
 .speech-bubble {
 	position: absolute;
-	background: #fabea7;
+	background: #a3d2ca;
 	border-radius: .4em;
 }
 
@@ -93,7 +108,7 @@ form{
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-top-color: #fabea7;
+	border-top-color: #a3d2ca;
 	border-bottom: 0;
 	border-right: 0;
 	margin-left: -10px;
@@ -102,10 +117,11 @@ form{
 .comment-input{
     @media only screen and (device-width: 768px);
         /* For general iPad layouts */
-    background: #fabea7;
+    background: #a3d2ca;
     outline-style: groove;
     margin-left: 25px;
     margin-right: 25%;
+    color: #e8ded2;;
 }
 
 .btn-outline-light{
