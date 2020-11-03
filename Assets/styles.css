@@ -9,7 +9,8 @@
 html {
     height: 100%;
     background-color: #e8ded2;
-}  
+}
+
 body {
     height: 50%;
     background-color: #056676;
@@ -18,17 +19,19 @@ body {
 }
 
 /* Navbar styles */
-.navbar-brand{
+.navbar-brand {
     font-family: 'Dancing Script', cursive;
     color: #e8ded2;
 }
-.nav-link{
+
+.nav-link {
     color: #e8ded2;
 }
-/* Main */ 
+
+/* Main */
 
 /* Header */
-.block-header{
+.block-header {
     font-family: 'Dancing Script', cursive;
     display: block;
     margin-left: auto;
@@ -36,33 +39,37 @@ body {
     width: 50%;
     color: #e8ded2;
 }
-/* Footer styles */ 
-.footer{
+
+/* Footer styles */
+.footer {
     font-family: 'Raleway', sans-serif;
     display: grid;
     position: sticky;
     margin-top: 250px;
 }
-.footer a{
+
+.footer a {
     color: #797a7e;
 }
 
-/* index.html */ 
-.bio{
+/* index.html */
+.bio {
     font-family: 'Raleway', sans-serif;
     color: #056676;
 }
 
 /* contact.html */
 /* Form styles */
-form{
+form {
     font-family: 'Raleway', sans-serif;
     background-color: #5eaaa8;
 }
-.form-control{
+
+.form-control {
     background-color: #e8ded2;
 }
-.mb-2{
+
+.mb-2 {
     font-family: 'Raleway', sans-serif;
     background-color: #a3d2ca;
     outline-color: #a3d2ca;
@@ -70,28 +77,31 @@ form{
 }
 
 /* portfolio.html */
-.education-header{
+.education-header {
     /* margin-top: 200px; */
-    color:#e8ded2;
+    color: #e8ded2;
 }
 
-.project-header{
-    color:#056676;
+.project-header {
+    color: #056676;
 }
-.project-card{
+
+.project-card {
     background-color: #a3d2ca;
-    color:#056676;
+    color: #056676;
 }
-.sub-header{
+
+.sub-header {
     font-family: 'Dancing Script', cursive;
 }
+
 /*  Cards styles*/
-.card-text{
+.card-text {
     font-family: 'Raleway', sans-serif;
 }
 
 /*  Code buttons style */
-.see-live{
+.see-live {
     font-family: 'Raleway', sans-serif;
     background-color: #e8ded2;
     outline-color: #e8ded2;
@@ -99,57 +109,63 @@ form{
     margin-bottom: 10px;
 }
 
-.source-code{
+.source-code {
     font-family: 'Raleway', sans-serif;
     background-color: #e8ded2;
     outline-color: #e8ded2;
     color: #056676;
 }
 
-.hero-style{
+/* Testimonial Style */
+.hero-style {
     background-color: #056676;
 }
-.testimonial-card{
+
+.testimonial-card {
     background-color: #056676;
     color: #e8ded2;
 }
-.testimonial-title{
+
+.testimonial-title {
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
 }
 
+/* Comment-bubble style */
 .speech-bubble {
-	position: absolute;
-	background: #a3d2ca;
-	border-radius: .4em;
+    position: absolute;
+    background: #a3d2ca;
+    border-radius: .4em;
 }
 
 .speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: #a3d2ca;
-	border-bottom: 0;
-	border-right: 0;
-	margin-left: -10px;
-	margin-bottom: -20px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #a3d2ca;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
 }
-.comment-input{
+
+.comment-input {
     @media only screen and (device-width: 768px);
-        /* For general iPad layouts */
+    /* For general iPad layouts */
     background: #a3d2ca;
     outline-style: groove;
     margin-left: 25px;
     margin-right: 25%;
-    color: #e8ded2;;
+    color: #e8ded2;
+    ;
     outline-color: #a3d2ca;
 }
 
-.btn-outline-light{
+.btn-outline-light {
     position: relative;
     margin-top: 15px;
     font-family: 'Raleway', sans-serif;
