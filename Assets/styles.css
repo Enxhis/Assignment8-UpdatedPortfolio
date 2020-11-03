@@ -22,7 +22,7 @@ body {
     font-family: 'Dancing Script', cursive;
     color: #e8ded2;
 }
-.navbar-nav{
+.nav-link{
     color: #e8ded2;
 }
 /* Main */ 
@@ -50,7 +50,7 @@ body {
 /* index.html */ 
 .bio{
     font-family: 'Raleway', sans-serif;
-    color: #132743;
+    color: #056676;
 }
 
 /* contact.html */
@@ -65,9 +65,15 @@ form{
 .mb-2{
     font-family: 'Raleway', sans-serif;
     background-color: #a3d2ca;
+    outline-color: #a3d2ca;
+    color: #132743;
 }
 
 /* portfolio.html */
+.project-card{
+    background-color: #a3d2ca;
+    color:#056676;
+}
 .sub-header{
     font-family: 'Dancing Script', cursive;
 }
@@ -76,12 +82,22 @@ form{
     font-family: 'Raleway', sans-serif;
 }
 
-
-/* logo resize*/
-.logo{
-    width: 400px;
-    height: auto;
+/*  Code buttons style */
+.see-live{
+    font-family: 'Raleway', sans-serif;
+    background-color: #e8ded2;
+    outline-color: #e8ded2;
+    color: #056676;
+    margin-bottom: 10px;
 }
+
+.source-code{
+    font-family: 'Raleway', sans-serif;
+    background-color: #e8ded2;
+    outline-color: #e8ded2;
+    color: #056676;
+}
+
 .hero-style{
     background-color: #056676;
 }
@@ -122,6 +138,7 @@ form{
     margin-left: 25px;
     margin-right: 25%;
     color: #e8ded2;;
+    outline-color: #a3d2ca;
 }
 
 .btn-outline-light{
@@ -130,4 +147,5 @@ form{
     font-family: 'Raleway', sans-serif;
     outline-style: groove;
     margin-left: 25px;
+    outline-color: #a3d2ca;
 }
